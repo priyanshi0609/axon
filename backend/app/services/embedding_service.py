@@ -1,30 +1,39 @@
 """
 Gemini embedding wrapper, used for both document chunks and user queries.
 """
-
 import os
-import google.generativeai as genai
+from dotenv import load_dotenv
+from google import genai
 
-genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
+load_dotenv()
 
-EMBEDDING_MODEL = "models/embedding-001"
+client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
+
+EMBEDDING_MODEL = "gemini-embedding-001"
 EMBEDDING_DIM = 768
 
 
 def embed_texts(texts: list[str]) -> list[list[float]]:
-    if not texts:
-        return []
+
     embeddings = []
+
     for text in texts:
-        result = genai.embed_content(
-            model=EMBEDDING_MODEL, content=text, task_type="retrieval_document",
+
+        response = client.models.embed_content(
+            model=EMBEDDING_MODEL,
+            contents=text,
         )
-        embeddings.append(result["embedding"])
+
+        embeddings.append(response.embeddings[0].values)
+
     return embeddings
 
 
 def embed_query(text: str) -> list[float]:
-    result = genai.embed_content(
-        model=EMBEDDING_MODEL, content=text, task_type="retrieval_query",
+
+    response = client.models.embed_content(
+        model=EMBEDDING_MODEL,
+        contents=text,
     )
-    return result["embedding"]
+
+    return response.embeddings[0].values
