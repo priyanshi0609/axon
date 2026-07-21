@@ -10,7 +10,7 @@ from qdrant_client.models import Distance, VectorParams, PointStruct
 
 QDRANT_URL = os.getenv("QDRANT_URL", "http://localhost:6333")
 COLLECTION_NAME = os.getenv("QDRANT_COLLECTION", "documents")
-EMBEDDING_DIM = 768
+EMBEDDING_DIM = 3072
 
 client = QdrantClient(url=QDRANT_URL)
 

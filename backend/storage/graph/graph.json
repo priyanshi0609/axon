@@ -2,6 +2,197 @@
   "directed": true,
   "multigraph": false,
   "graph": {},
-  "nodes": [],
-  "links": []
+  "nodes": [
+    {
+      "type": "Equipment",
+      "sources": [
+        "6c8c703c-820e-4a44-8d18-26ff90d10226"
+      ],
+      "id": "coke oven battery"
+    },
+    {
+      "type": "Equipment",
+      "sources": [
+        "6c8c703c-820e-4a44-8d18-26ff90d10226"
+      ],
+      "id": "gas detectors"
+    },
+    {
+      "type": "Equipment",
+      "sources": [
+        "6c8c703c-820e-4a44-8d18-26ff90d10226"
+      ],
+      "id": "SCADA"
+    },
+    {
+      "type": "Equipment",
+      "sources": [
+        "6c8c703c-820e-4a44-8d18-26ff90d10226"
+      ],
+      "id": "gas pressure sensors"
+    },
+    {
+      "type": "Location",
+      "sources": [
+        "6c8c703c-820e-4a44-8d18-26ff90d10226"
+      ],
+      "id": "Visakhapatnam Steel Plant"
+    },
+    {
+      "type": "Location",
+      "sources": [
+        "6c8c703c-820e-4a44-8d18-26ff90d10226"
+      ],
+      "id": "India"
+    },
+    {
+      "type": "Location",
+      "sources": [
+        "6c8c703c-820e-4a44-8d18-26ff90d10226"
+      ],
+      "id": "Strait of Hormuz"
+    },
+    {
+      "type": "Location",
+      "sources": [
+        "6c8c703c-820e-4a44-8d18-26ff90d10226"
+      ],
+      "id": "Persian Gulf"
+    },
+    {
+      "type": "Location",
+      "sources": [
+        "6c8c703c-820e-4a44-8d18-26ff90d10226"
+      ],
+      "id": "Red Sea"
+    },
+    {
+      "type": "Failure",
+      "sources": [
+        "6c8c703c-820e-4a44-8d18-26ff90d10226"
+      ],
+      "id": "explosion"
+    },
+    {
+      "type": "Failure",
+      "sources": [
+        "6c8c703c-820e-4a44-8d18-26ff90d10226"
+      ],
+      "id": "entrapped gases"
+    },
+    {
+      "type": "Failure",
+      "sources": [
+        "6c8c703c-820e-4a44-8d18-26ff90d10226"
+      ],
+      "id": "hazardous gas accumulation"
+    },
+    {
+      "type": "Regulation",
+      "sources": [
+        "6c8c703c-820e-4a44-8d18-26ff90d10226"
+      ],
+      "id": "OISD"
+    },
+    {
+      "type": "Regulation",
+      "sources": [
+        "6c8c703c-820e-4a44-8d18-26ff90d10226"
+      ],
+      "id": "Factory Act"
+    },
+    {
+      "type": "Regulation",
+      "sources": [
+        "6c8c703c-820e-4a44-8d18-26ff90d10226"
+      ],
+      "id": "DGMS"
+    },
+    {
+      "type": "Date",
+      "sources": [
+        "6c8c703c-820e-4a44-8d18-26ff90d10226"
+      ],
+      "id": "FY2023"
+    },
+    {
+      "type": "Date",
+      "sources": [
+        "6c8c703c-820e-4a44-8d18-26ff90d10226"
+      ],
+      "id": "January 2025"
+    },
+    {
+      "type": "Date",
+      "sources": [
+        "6c8c703c-820e-4a44-8d18-26ff90d10226"
+      ],
+      "id": "2024"
+    },
+    {
+      "type": "Date",
+      "sources": [
+        "6c8c703c-820e-4a44-8d18-26ff90d10226"
+      ],
+      "id": "early 2026"
+    },
+    {
+      "type": "Date",
+      "sources": [
+        "6c8c703c-820e-4a44-8d18-26ff90d10226"
+      ],
+      "id": "FY2025"
+    },
+    {
+      "type": "Date",
+      "sources": [
+        "6c8c703c-820e-4a44-8d18-26ff90d10226"
+      ],
+      "id": "2030"
+    }
+  ],
+  "links": [
+    {
+      "relation": "INSTALLED_IN",
+      "file_id": "6c8c703c-820e-4a44-8d18-26ff90d10226",
+      "source": "coke oven battery",
+      "target": "Visakhapatnam Steel Plant"
+    },
+    {
+      "relation": "INSTALLED_IN",
+      "file_id": "6c8c703c-820e-4a44-8d18-26ff90d10226",
+      "source": "gas detectors",
+      "target": "coke oven battery"
+    },
+    {
+      "relation": "INSTALLED_IN",
+      "file_id": "6c8c703c-820e-4a44-8d18-26ff90d10226",
+      "source": "SCADA",
+      "target": "coke oven battery"
+    },
+    {
+      "relation": "INSTALLED_IN",
+      "file_id": "6c8c703c-820e-4a44-8d18-26ff90d10226",
+      "source": "gas pressure sensors",
+      "target": "coke oven battery"
+    },
+    {
+      "relation": "OCCURRED_IN",
+      "file_id": "6c8c703c-820e-4a44-8d18-26ff90d10226",
+      "source": "explosion",
+      "target": "coke oven battery"
+    },
+    {
+      "relation": "OCCURRED_ON",
+      "file_id": "6c8c703c-820e-4a44-8d18-26ff90d10226",
+      "source": "explosion",
+      "target": "January 2025"
+    },
+    {
+      "relation": "TRIGGERED",
+      "file_id": "6c8c703c-820e-4a44-8d18-26ff90d10226",
+      "source": "entrapped gases",
+      "target": "explosion"
+    }
+  ]
 }
