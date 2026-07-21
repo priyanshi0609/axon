@@ -107,7 +107,7 @@ export default function FileUploader() {
         <Button type="button" variant="secondary" onClick={() => inputRef.current?.click()}>
           Browse files
         </Button>
-        <p className="text-xs text-muted-foreground mt-3">PDF, DOCX, XLSX, PPTX, images, CSV — up to 25MB each</p>
+        <p className="text-xs text-muted-foreground mt-3">PDF, DOCX, XLSX, PPTX, images, CSV - up to 25MB each</p>
       </div>
 
       {files.length > 0 && (

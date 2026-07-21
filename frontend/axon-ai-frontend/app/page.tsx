@@ -32,7 +32,7 @@ export default function Home() {
 
       <p className="text-xs text-muted-foreground text-center">
         After a document finishes processing it's automatically embedded for search and added to the
-        knowledge graph — then head to "Ask Axon" or "Knowledge Graph" to explore it.
+        knowledge graph,then head to "Ask Axon" or "Knowledge Graph" to explore it.
       </p>
     </main>
   );

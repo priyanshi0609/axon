@@ -2,6 +2,8 @@
 
 import { useState, useRef, useEffect } from "react";
 import { Send, Loader2, FileText } from "lucide-react";
+import ReactMarkdown from "react-markdown";
+import remarkGfm from "remark-gfm";
 import { Button } from "@/components/ui/button";
 import { api, ChatResponse } from "@/lib/api";
 
@@ -60,11 +62,27 @@ export default function ChatWindow() {
         {messages.map((m, i) => (
           <div key={i} className={m.role === "user" ? "text-right" : "text-left"}>
             <div
-              className={`inline-block rounded-lg px-3 py-2 max-w-[85%] text-sm ${
+              className={`inline-block rounded-lg px-3 py-2 max-w-[85%] text-sm text-left ${
                 m.role === "user" ? "bg-primary text-primary-foreground" : "bg-muted"
               }`}
             >
-              {m.text}
+              {m.role === "assistant" ? (
+                <div
+                  className="prose prose-sm max-w-none
+                    prose-p:my-1.5 prose-p:leading-relaxed
+                    prose-strong:font-semibold prose-strong:text-foreground
+                    prose-ul:my-1.5 prose-ul:pl-4 prose-li:my-0.5
+                    prose-ol:my-1.5 prose-ol:pl-4
+                    prose-headings:mt-2 prose-headings:mb-1 prose-headings:font-semibold
+                    prose-code:before:content-none prose-code:after:content-none
+                    prose-code:bg-background/60 prose-code:rounded prose-code:px-1
+                    prose-table:my-2"
+                >
+                  <ReactMarkdown remarkPlugins={[remarkGfm]}>{m.text}</ReactMarkdown>
+                </div>
+              ) : (
+                m.text
+              )}
             </div>
 
             {m.meta && (

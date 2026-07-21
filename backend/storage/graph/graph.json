@@ -42,7 +42,8 @@
       "type": "Location",
       "sources": [
         "6c8c703c-820e-4a44-8d18-26ff90d10226",
-        "649e91b3-8c1d-4354-89f4-b4335af861ec"
+        "649e91b3-8c1d-4354-89f4-b4335af861ec",
+        "06622e45-b774-4f2b-8c81-692a0ed99269"
       ],
       "id": "India"
     },
@@ -227,6 +228,271 @@
         "35661180-e0f9-4d41-8b90-792a8a96b5cd"
       ],
       "id": "2026"
+    },
+    {
+      "type": "Equipment",
+      "sources": [
+        "27d1398c-4e63-47c1-8fac-b3aa9bc0f678",
+        "06622e45-b774-4f2b-8c81-692a0ed99269"
+      ],
+      "id": "Primary Jaw Crusher (CR-101)"
+    },
+    {
+      "type": "Equipment",
+      "sources": [
+        "27d1398c-4e63-47c1-8fac-b3aa9bc0f678",
+        "06622e45-b774-4f2b-8c81-692a0ed99269"
+      ],
+      "id": "vibrating screen (SC-101)"
+    },
+    {
+      "type": "Equipment",
+      "sources": [
+        "27d1398c-4e63-47c1-8fac-b3aa9bc0f678",
+        "06622e45-b774-4f2b-8c81-692a0ed99269"
+      ],
+      "id": "cone crusher (CC-201)"
+    },
+    {
+      "type": "Equipment",
+      "sources": [
+        "27d1398c-4e63-47c1-8fac-b3aa9bc0f678",
+        "06622e45-b774-4f2b-8c81-692a0ed99269"
+      ],
+      "id": "conveyor belt CV-301"
+    },
+    {
+      "type": "Location",
+      "sources": [
+        "27d1398c-4e63-47c1-8fac-b3aa9bc0f678",
+        "06622e45-b774-4f2b-8c81-692a0ed99269"
+      ],
+      "id": "Jamshedpur"
+    },
+    {
+      "type": "Location",
+      "sources": [
+        "27d1398c-4e63-47c1-8fac-b3aa9bc0f678",
+        "06622e45-b774-4f2b-8c81-692a0ed99269"
+      ],
+      "id": "crusher section"
+    },
+    {
+      "type": "Failure",
+      "sources": [
+        "27d1398c-4e63-47c1-8fac-b3aa9bc0f678",
+        "06622e45-b774-4f2b-8c81-692a0ed99269"
+      ],
+      "id": "excessive vibration"
+    },
+    {
+      "type": "Failure",
+      "sources": [
+        "27d1398c-4e63-47c1-8fac-b3aa9bc0f678",
+        "06622e45-b774-4f2b-8c81-692a0ed99269"
+      ],
+      "id": "grease contamination"
+    },
+    {
+      "type": "Failure",
+      "sources": [
+        "27d1398c-4e63-47c1-8fac-b3aa9bc0f678",
+        "06622e45-b774-4f2b-8c81-692a0ed99269"
+      ],
+      "id": "shaft alignment deviation"
+    },
+    {
+      "type": "Failure",
+      "sources": [
+        "27d1398c-4e63-47c1-8fac-b3aa9bc0f678"
+      ],
+      "id": "jaw plate wear"
+    },
+    {
+      "type": "Failure",
+      "sources": [
+        "27d1398c-4e63-47c1-8fac-b3aa9bc0f678"
+      ],
+      "id": "blockage"
+    },
+    {
+      "type": "Failure",
+      "sources": [
+        "27d1398c-4e63-47c1-8fac-b3aa9bc0f678"
+      ],
+      "id": "minor oil leakage"
+    },
+    {
+      "type": "Failure",
+      "sources": [
+        "27d1398c-4e63-47c1-8fac-b3aa9bc0f678"
+      ],
+      "id": "small crack on the inspection cover"
+    },
+    {
+      "type": "Failure",
+      "sources": [
+        "27d1398c-4e63-47c1-8fac-b3aa9bc0f678"
+      ],
+      "id": "complete bearing failure"
+    },
+    {
+      "type": "Regulation",
+      "sources": [
+        "27d1398c-4e63-47c1-8fac-b3aa9bc0f678",
+        "06622e45-b774-4f2b-8c81-692a0ed99269"
+      ],
+      "id": "Factories Act 1948"
+    },
+    {
+      "type": "Regulation",
+      "sources": [
+        "27d1398c-4e63-47c1-8fac-b3aa9bc0f678",
+        "06622e45-b774-4f2b-8c81-692a0ed99269"
+      ],
+      "id": "OISD safety standards"
+    },
+    {
+      "type": "Regulation",
+      "sources": [
+        "27d1398c-4e63-47c1-8fac-b3aa9bc0f678",
+        "06622e45-b774-4f2b-8c81-692a0ed99269"
+      ],
+      "id": "ISO 45001"
+    },
+    {
+      "type": "Regulation",
+      "sources": [
+        "27d1398c-4e63-47c1-8fac-b3aa9bc0f678",
+        "06622e45-b774-4f2b-8c81-692a0ed99269"
+      ],
+      "id": "PESO safety guidelines"
+    },
+    {
+      "type": "Date",
+      "sources": [
+        "27d1398c-4e63-47c1-8fac-b3aa9bc0f678"
+      ],
+      "id": "2025-01-15"
+    },
+    {
+      "type": "Date",
+      "sources": [
+        "27d1398c-4e63-47c1-8fac-b3aa9bc0f678"
+      ],
+      "id": "2025-04-22"
+    },
+    {
+      "type": "Date",
+      "sources": [
+        "27d1398c-4e63-47c1-8fac-b3aa9bc0f678"
+      ],
+      "id": "2025-06-10"
+    },
+    {
+      "type": "Date",
+      "sources": [
+        "27d1398c-4e63-47c1-8fac-b3aa9bc0f678"
+      ],
+      "id": "2025-07-28"
+    },
+    {
+      "type": "Date",
+      "sources": [
+        "27d1398c-4e63-47c1-8fac-b3aa9bc0f678"
+      ],
+      "id": "2025-05"
+    },
+    {
+      "type": "Date",
+      "sources": [
+        "27d1398c-4e63-47c1-8fac-b3aa9bc0f678"
+      ],
+      "id": "2025-08"
+    },
+    {
+      "type": "Failure",
+      "sources": [
+        "06622e45-b774-4f2b-8c81-692a0ed99269"
+      ],
+      "id": "jaw plates wear"
+    },
+    {
+      "type": "Failure",
+      "sources": [
+        "06622e45-b774-4f2b-8c81-692a0ed99269"
+      ],
+      "id": "oil leakage"
+    },
+    {
+      "type": "Failure",
+      "sources": [
+        "06622e45-b774-4f2b-8c81-692a0ed99269"
+      ],
+      "id": "crack on the inspection cover"
+    },
+    {
+      "type": "Failure",
+      "sources": [
+        "06622e45-b774-4f2b-8c81-692a0ed99269"
+      ],
+      "id": "bearing failure"
+    },
+    {
+      "type": "Failure",
+      "sources": [
+        "06622e45-b774-4f2b-8c81-692a0ed99269"
+      ],
+      "id": "incomplete Lock-Out Tag-Out documentation"
+    },
+    {
+      "type": "Date",
+      "sources": [
+        "06622e45-b774-4f2b-8c81-692a0ed99269"
+      ],
+      "id": "2020"
+    },
+    {
+      "type": "Date",
+      "sources": [
+        "06622e45-b774-4f2b-8c81-692a0ed99269"
+      ],
+      "id": "15 January 2025"
+    },
+    {
+      "type": "Date",
+      "sources": [
+        "06622e45-b774-4f2b-8c81-692a0ed99269"
+      ],
+      "id": "22 April 2025"
+    },
+    {
+      "type": "Date",
+      "sources": [
+        "06622e45-b774-4f2b-8c81-692a0ed99269"
+      ],
+      "id": "10 June 2025"
+    },
+    {
+      "type": "Date",
+      "sources": [
+        "06622e45-b774-4f2b-8c81-692a0ed99269"
+      ],
+      "id": "May 2025"
+    },
+    {
+      "type": "Date",
+      "sources": [
+        "06622e45-b774-4f2b-8c81-692a0ed99269"
+      ],
+      "id": "28 July 2025"
+    },
+    {
+      "type": "Date",
+      "sources": [
+        "06622e45-b774-4f2b-8c81-692a0ed99269"
+      ],
+      "id": "August 2025"
     }
   ],
   "links": [
@@ -271,6 +537,204 @@
       "file_id": "6c8c703c-820e-4a44-8d18-26ff90d10226",
       "source": "entrapped gases",
       "target": "explosion"
+    },
+    {
+      "relation": "INSTALLED_IN",
+      "file_id": "06622e45-b774-4f2b-8c81-692a0ed99269",
+      "source": "Primary Jaw Crusher (CR-101)",
+      "target": "Jamshedpur"
+    },
+    {
+      "relation": "HAD_FAILURE",
+      "file_id": "06622e45-b774-4f2b-8c81-692a0ed99269",
+      "source": "Primary Jaw Crusher (CR-101)",
+      "target": "excessive vibration"
+    },
+    {
+      "relation": "HAD_FAILURE",
+      "file_id": "06622e45-b774-4f2b-8c81-692a0ed99269",
+      "source": "Primary Jaw Crusher (CR-101)",
+      "target": "grease contamination"
+    },
+    {
+      "relation": "HAD_FAILURE",
+      "file_id": "06622e45-b774-4f2b-8c81-692a0ed99269",
+      "source": "Primary Jaw Crusher (CR-101)",
+      "target": "shaft alignment deviation"
+    },
+    {
+      "relation": "HAD_FAILURE",
+      "file_id": "27d1398c-4e63-47c1-8fac-b3aa9bc0f678",
+      "source": "Primary Jaw Crusher (CR-101)",
+      "target": "jaw plate wear"
+    },
+    {
+      "relation": "HAD_FAILURE",
+      "file_id": "27d1398c-4e63-47c1-8fac-b3aa9bc0f678",
+      "source": "Primary Jaw Crusher (CR-101)",
+      "target": "blockage"
+    },
+    {
+      "relation": "HAD_FAILURE",
+      "file_id": "27d1398c-4e63-47c1-8fac-b3aa9bc0f678",
+      "source": "Primary Jaw Crusher (CR-101)",
+      "target": "minor oil leakage"
+    },
+    {
+      "relation": "HAD_FAILURE",
+      "file_id": "27d1398c-4e63-47c1-8fac-b3aa9bc0f678",
+      "source": "Primary Jaw Crusher (CR-101)",
+      "target": "small crack on the inspection cover"
+    },
+    {
+      "relation": "HAD_FAILURE",
+      "file_id": "27d1398c-4e63-47c1-8fac-b3aa9bc0f678",
+      "source": "Primary Jaw Crusher (CR-101)",
+      "target": "complete bearing failure"
+    },
+    {
+      "relation": "CONNECTED_TO",
+      "file_id": "06622e45-b774-4f2b-8c81-692a0ed99269",
+      "source": "Primary Jaw Crusher (CR-101)",
+      "target": "vibrating screen (SC-101)"
+    },
+    {
+      "relation": "INSTALLED_IN",
+      "file_id": "06622e45-b774-4f2b-8c81-692a0ed99269",
+      "source": "Primary Jaw Crusher (CR-101)",
+      "target": "India"
+    },
+    {
+      "relation": "HAD_FAILURE",
+      "file_id": "06622e45-b774-4f2b-8c81-692a0ed99269",
+      "source": "Primary Jaw Crusher (CR-101)",
+      "target": "jaw plates wear"
+    },
+    {
+      "relation": "HAD_FAILURE",
+      "file_id": "06622e45-b774-4f2b-8c81-692a0ed99269",
+      "source": "Primary Jaw Crusher (CR-101)",
+      "target": "oil leakage"
+    },
+    {
+      "relation": "HAD_FAILURE",
+      "file_id": "06622e45-b774-4f2b-8c81-692a0ed99269",
+      "source": "Primary Jaw Crusher (CR-101)",
+      "target": "crack on the inspection cover"
+    },
+    {
+      "relation": "HAD_FAILURE",
+      "file_id": "06622e45-b774-4f2b-8c81-692a0ed99269",
+      "source": "Primary Jaw Crusher (CR-101)",
+      "target": "bearing failure"
+    },
+    {
+      "relation": "FEEDS",
+      "file_id": "06622e45-b774-4f2b-8c81-692a0ed99269",
+      "source": "vibrating screen (SC-101)",
+      "target": "cone crusher (CC-201)"
+    },
+    {
+      "relation": "FEEDS",
+      "file_id": "27d1398c-4e63-47c1-8fac-b3aa9bc0f678",
+      "source": "cone crusher (CC-201)",
+      "target": "conveyor belt CV-301"
+    },
+    {
+      "relation": "OCCURRED_ON",
+      "file_id": "27d1398c-4e63-47c1-8fac-b3aa9bc0f678",
+      "source": "excessive vibration",
+      "target": "2025-01-15"
+    },
+    {
+      "relation": "OCCURRED_ON",
+      "file_id": "06622e45-b774-4f2b-8c81-692a0ed99269",
+      "source": "excessive vibration",
+      "target": "15 January 2025"
+    },
+    {
+      "relation": "OCCURRED_ON",
+      "file_id": "27d1398c-4e63-47c1-8fac-b3aa9bc0f678",
+      "source": "grease contamination",
+      "target": "2025-01-15"
+    },
+    {
+      "relation": "OCCURRED_ON",
+      "file_id": "06622e45-b774-4f2b-8c81-692a0ed99269",
+      "source": "grease contamination",
+      "target": "15 January 2025"
+    },
+    {
+      "relation": "OCCURRED_ON",
+      "file_id": "27d1398c-4e63-47c1-8fac-b3aa9bc0f678",
+      "source": "shaft alignment deviation",
+      "target": "2025-01-15"
+    },
+    {
+      "relation": "OCCURRED_ON",
+      "file_id": "06622e45-b774-4f2b-8c81-692a0ed99269",
+      "source": "shaft alignment deviation",
+      "target": "15 January 2025"
+    },
+    {
+      "relation": "OCCURRED_ON",
+      "file_id": "27d1398c-4e63-47c1-8fac-b3aa9bc0f678",
+      "source": "jaw plate wear",
+      "target": "2025-04-22"
+    },
+    {
+      "relation": "OCCURRED_ON",
+      "file_id": "27d1398c-4e63-47c1-8fac-b3aa9bc0f678",
+      "source": "blockage",
+      "target": "2025-04-22"
+    },
+    {
+      "relation": "OCCURRED_ON",
+      "file_id": "27d1398c-4e63-47c1-8fac-b3aa9bc0f678",
+      "source": "minor oil leakage",
+      "target": "2025-06-10"
+    },
+    {
+      "relation": "OCCURRED_ON",
+      "file_id": "27d1398c-4e63-47c1-8fac-b3aa9bc0f678",
+      "source": "small crack on the inspection cover",
+      "target": "2025-06-10"
+    },
+    {
+      "relation": "OCCURRED_ON",
+      "file_id": "27d1398c-4e63-47c1-8fac-b3aa9bc0f678",
+      "source": "complete bearing failure",
+      "target": "2025-07-28"
+    },
+    {
+      "relation": "OCCURRED_ON",
+      "file_id": "06622e45-b774-4f2b-8c81-692a0ed99269",
+      "source": "jaw plates wear",
+      "target": "22 April 2025"
+    },
+    {
+      "relation": "OCCURRED_ON",
+      "file_id": "06622e45-b774-4f2b-8c81-692a0ed99269",
+      "source": "oil leakage",
+      "target": "10 June 2025"
+    },
+    {
+      "relation": "OCCURRED_ON",
+      "file_id": "06622e45-b774-4f2b-8c81-692a0ed99269",
+      "source": "crack on the inspection cover",
+      "target": "10 June 2025"
+    },
+    {
+      "relation": "OCCURRED_ON",
+      "file_id": "06622e45-b774-4f2b-8c81-692a0ed99269",
+      "source": "bearing failure",
+      "target": "28 July 2025"
+    },
+    {
+      "relation": "OCCURRED_ON",
+      "file_id": "06622e45-b774-4f2b-8c81-692a0ed99269",
+      "source": "incomplete Lock-Out Tag-Out documentation",
+      "target": "May 2025"
     }
   ]
 }
