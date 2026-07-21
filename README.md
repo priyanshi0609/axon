@@ -38,10 +38,6 @@ organisation's accumulated knowledge can actually be *reasoned over*.
 
 ## 4. What We Actually Built (and What We Didn't)
 
-The original concept brainstorm sketched 10 features and 7 specialised agents. Building all of
-that in a hackathon window and calling it "done" would mean a lot of half-working stubs. Instead
-we scoped down to a smaller set that works end-to-end and is genuinely demoable:
-
 **Implemented, working:**
 | Component | What it does |
 |---|---|
